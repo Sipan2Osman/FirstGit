@@ -139,7 +139,7 @@ namespace xmlFirst {
                 {
                     item.SelectSingleNode("First").InnerText = tbUpdate.Text;
                    
-                    MessageBox.Show(fir + " Updated");
+                    MessageBox.Show(fir + " Updated!");
                 }
             }
             doc.Save(@"C:\Users\aeprakti\Desktop\xmlFirst\Sipan.xml");
